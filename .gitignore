@@ -8,4 +8,6 @@ practice_test*.csv
 tuning_outputs/
 rotated_validation/
 rotated_validation_new/
-test.csv/
+test*.csv/
+patches/
+
