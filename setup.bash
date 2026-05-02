@@ -16,6 +16,8 @@ git clone "${REPO_URL}" "${TMP_REPO_DIR}/repo"
 cp -a "${TMP_REPO_DIR}/repo/." .
 
 echo "[setup] Installing dependencies"
+
+python -m pip install qwen_vl_utils
 python -m pip install --upgrade pip
 python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 python -m pip install --no-deps qwen-vl-utils
